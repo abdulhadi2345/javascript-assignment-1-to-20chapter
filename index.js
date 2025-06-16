@@ -1,21 +1,44 @@
 // Exercise 1: Greet the user
-    alert("Hello Visitor! Welcome to our website.");
 
-    // Exercise 4: Multiple alerts in sequence
-    alert("Welcome to JavaScript!");
-    alert("Happy Learning!");
-    alert("Alerts help convey messages.");
-    
-    // Exercise 5: Message in developer console
-    console.log("This message is generated from the browser console.");
+// 1. Declare a variable called username
+var username;
 
-    // Exercise 6: Additional alert for your project
-    alert("This is an alert used in your existing project!");
+// 2. Declare a variable called myName & assign your full name
+var myName = "Abdul Hadi";
 
-   // Exercise 7a: Script in the HEA
-    // Script in the head - may run before page is fully loaded
-    console.log("Script running from HEAD section.");
+// 3. a) Declare variable message
+var message;
 
-  // Exercise 7b: Script at the end of the body -->
-    console.log("Script running at the end of BODY section.");
-  
+// b) Assign "Hello World"
+message = "Hello World";
+
+// c) Display the message in alert
+alert(message);
+
+// 4. Save student bio data in JS variables and show in alerts
+var studentName = "Abdul Hadi";
+var studentAge = "17 years old";
+var studentCourse = "Web and App Development";
+
+alert(studentName);
+alert(studentAge);
+alert(studentCourse);
+
+// 5. Display the following alert using one JS variable
+var pizza = "PIZZA\nPIZZ\nPIZ\nPI\nP";
+alert(pizza);
+
+// 6. Declare email and show alert
+var email = "ah3908208@email.com";
+alert("My email address is " + email);
+
+// 7. Declare book and show message
+var book = "A smarter way to learn JavaScript";
+alert("I am trying to learn from the book " + book);
+
+// 8. Show message in browser (not alert)
+document.write("Yay! I can write HTML content through JavaScript.<br>");
+
+// 9. Store string in a variable and show it in browser
+var designString = "---------Thanks--------";
+document.write(designString);
